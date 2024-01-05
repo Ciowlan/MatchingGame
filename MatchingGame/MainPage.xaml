@@ -1,0 +1,28 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatchingGame.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="card1" Grid.Row="0" Grid.Column="0" Text="" Clicked="OnCardClicked" FontSize="20" WidthRequest="100" HeightRequest="150"/>
+        <Button x:Name="card2" Grid.Row="0" Grid.Column="1" Text="" Clicked="OnCardClicked" FontSize="20" WidthRequest="100" HeightRequest="150"/>
+        <Button x:Name="card3" Grid.Row="0" Grid.Column="2" Text="" Clicked="OnCardClicked" FontSize="20" WidthRequest="100" HeightRequest="150"/>
+        <Button x:Name="card4" Grid.Row="1" Grid.Column="0" Text="" Clicked="OnCardClicked" FontSize="20" WidthRequest="100" HeightRequest="150"/>
+        <Button x:Name="card5" Grid.Row="1" Grid.Column="1" Text="Reset" Clicked="OnReset"  FontSize="20" WidthRequest="100" HeightRequest="150"/>
+        <Button x:Name="card6" Grid.Row="1" Grid.Column="2" Text="" Clicked="OnCardClicked" FontSize="20" WidthRequest="100" HeightRequest="150"/>
+        <Button x:Name="card7" Grid.Row="2" Grid.Column="0" Text="" Clicked="OnCardClicked" FontSize="20" WidthRequest="100" HeightRequest="150"/>
+        <Button x:Name="card8" Grid.Row="2" Grid.Column="1" Text="" Clicked="OnCardClicked" FontSize="20" WidthRequest="100" HeightRequest="150"/>
+        <Button x:Name="card9" Grid.Row="2" Grid.Column="2" Text="" Clicked="OnCardClicked" FontSize="20" WidthRequest="100" HeightRequest="150"/>
+    </Grid>
+</ContentPage>
